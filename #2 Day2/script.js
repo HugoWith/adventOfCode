@@ -20,16 +20,19 @@ let move = {
 
 let cheatingMove = {
   A: {
+    // rock
     X: score.scissors, // Loosing
     Y: score.rock, // Draw
     Z: score.paper, // Winning
   },
   B: {
+    // paper
     X: score.rock, // Loosing
     Y: score.paper, // Draw
     Z: score.scissors, // Winning
   },
   C: {
+    // scissors
     X: score.paper, // Loosing
     Y: score.scissors, // Draw
     Z: score.rock, // Winning
